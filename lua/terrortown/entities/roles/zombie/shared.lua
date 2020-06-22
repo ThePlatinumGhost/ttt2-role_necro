@@ -137,7 +137,7 @@ if SERVER then
 
 	hook.Add("TTT2UpdateSubrole", "UpdateZombRoleSelect", function(ply, oldSubrole, newSubrole)
 		if newSubrole == ROLE_ZOMBIE then
-			ply:SetSubRoleModel("models/player/corpse1.mdl")
+			ply:SetSubRoleModel("models/player/skeleton.mdl")
 		elseif oldSubrole == ROLE_ZOMBIE then
 			ply:SetSubRoleModel(nil)
 		end
