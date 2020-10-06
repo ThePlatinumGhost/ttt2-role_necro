@@ -122,7 +122,7 @@ if SERVER then
 
 		target:SetMaxHealth(maxhealth:GetInt())
 		target:SetHealth(maxhealth:GetInt())
-
+		target:ResetConfirmPlayer()
 		SendFullStateUpdate()
 	end
 
